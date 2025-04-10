@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Plus+Jakarta+Sans&family=Poppins&family=Space+Grotesk&display=swap");
+@theme {
+  --color-cancel: #fc6363;
+  --color-process-: #ffb546;
+  --color-success-: #06c698;
+  --color-dark-background: #131317;
+  --color-dark-card: #2e2e2e;
+  --color-dark-stroke: #454554;
+  --color-neutral-background: #fafafa;
+  --color-neutral-body-text: #808080;
+  --color-neutral-stroke: #eee;
+  --color-neutral-title: #262626;
+  --color-neutral-white: #fff;
+  --color-primary-high: #212121;
+  --color-primary-light: #eee;
+  --color-primary-medium: #3d3d3d;
+  --color-secondary-high: #c6c6c6;
+  --color-secondary-light: #f0f0f0;
+  --color-secondary-medium: #d2d2d2;
+
+  --font-font-family: "Manrope", sans-serif;
+  --font-second-family: "Plus Jakarta Sans", sans-serif;
+  --font-third-family: "Poppins", sans-serif;
+  --font-font3: "Space Grotesk", sans-serif;
+}
