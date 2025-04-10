@@ -1,6 +1,8 @@
 import SlideReview from "@/components/slideReview";
 import React from "react";
 import "../globals.css";
+import ThemeToggle from "@/components/themeToggle";
+
 
 export default function RootLayout({
   children,
@@ -9,10 +11,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-neutral-background dark:bg-dark-background">        
+      <body className="bg-neutral-background dark:bg-dark-background">  
+      <ThemeToggle />      
         {children}
         <SlideReview />
-        <div className="bg-red-500 text-white p-4 text-lg">Проверка Tailwind</div>
+        
       </body>
     </html>
   );

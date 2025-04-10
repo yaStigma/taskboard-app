@@ -1,4 +1,6 @@
 import './globals.css';
+// import ThemeToggle from "@/components/themeToggle";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -7,6 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body          >
+        {/* <ThemeToggle /> */}
         {children}
       </body>
     </html>
